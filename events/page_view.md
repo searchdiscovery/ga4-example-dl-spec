@@ -1,6 +1,6 @@
-# Account Created
+# Page View
 
-Fire whenever a user completes the process of registering for an account.
+Fire whenever a user views a page. This will usually be picked up automatically by GTM on desktop but may need to be manually sent on mobile.
 
 ## Javascript Code
 
@@ -19,4 +19,3 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |page_location|string|The URL of the page viewed.|https://www.example.com|
 |page_referrer|string|The URL of the page viewed before the current page.|https://www.example-referrer.com|
-
