@@ -14,7 +14,7 @@ Custom HTML data attributes enable some data layer events to be fired without de
 ### Region and component attributes
 These attributes are unique in that they are used by all data attribute events. They should be applied to the HTML elements for each component and region of the site of the page/site that needs to be tracked. 
 
-For instance, the main page <header> tag might have the data-layer-region="header" attribute added to it, while a tabset might have data-layer-component="tabset". Any data layer events that are triggered via interactions with child HTML elements under the <header> or tabset would include these contextual attributes.
+For instance, the main page `<header>` tag might have the `data-layer-region="header"` attribute added to it, while a tabset might have `data-layer-component="tabset"`. Any data layer events that are triggered via interactions with child HTML elements under the `<header>` or tabset would include these contextual attributes.
 
 ## Questions/Comments
 For any questions or comments, please contact cory.watson@searchdiscovery.com.
