@@ -6,6 +6,7 @@ Fire each time a user clicks a link.
 
 ```html
 <a href="{{link_url}}"
+  data-layer-event="click"
   data-layer-link_classes="{{link_classes}}"
   data-layer-link_domain="{{link_domain}}"
   data-layer-link_id="{{link_id}}"
