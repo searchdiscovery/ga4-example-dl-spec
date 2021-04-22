@@ -28,4 +28,4 @@ dataLayer.push({
 |video_provider|string|The video provider.|youtube, vimeo|
 |video_title|string|The title of the video.|Walkthrough of the Google Analytics 4 User Interface|
 |video_url|string|The URL of the video.|https://youtu.be/RhS85WQiBLU|
-|visible|string|Is the video visible on the page.|boolean|
+|visible|boolean|Is the video visible on the page.|true|
